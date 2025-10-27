@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data directories (large files)
+data/raw/
+data/processed/
+*.csv
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Model checkpoints
+models/
+saved_models/
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Results
+results/
+figures/
+*.png
+*.jpg
+*.pdf
+*.svg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+tensorboard/
+
